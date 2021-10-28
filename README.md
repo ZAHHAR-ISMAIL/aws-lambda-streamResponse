@@ -16,6 +16,10 @@ git clone .......
 ```
 mvn clean package
 ```
+or
+```
+mvn clean package shade:shade
+```
 
 
 Edit Runtime settings of the Handler in aws Lambda console :  `com.amazonaws.lambda.demo.LambdaFunctionHandler::handleRequest`
