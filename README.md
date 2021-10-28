@@ -3,6 +3,14 @@
 ```
 git clone .......
 ```
+### Add Gson dependency to pom.xml
+```
+     <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.5</version>
+     </dependency>
+```
 
 ### Use Maven To Generate the jar file (go to `/target` to find the jar)
 ```
